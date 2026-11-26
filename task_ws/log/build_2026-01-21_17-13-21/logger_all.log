@@ -1,0 +1,287 @@
+[0.094s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.094s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x750ed6e66b70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x750ed6e669c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x750ed6e669c0>>)
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.126s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(multi_robot_explore) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(multi_robot_explore) by extension 'ignore'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(multi_robot_explore) by extension 'ignore_ament_install'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(multi_robot_explore) by extensions ['colcon_pkg']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(multi_robot_explore) by extension 'colcon_pkg'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(multi_robot_explore) by extensions ['colcon_meta']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(multi_robot_explore) by extension 'colcon_meta'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(multi_robot_explore) by extensions ['ros']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(multi_robot_explore) by extension 'ros'
+[0.149s] DEBUG:colcon.colcon_core.package_identification:Package 'multi_robot_explore' with type 'ros.ament_python' and name 'multi_robot_explore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(multi_robot_map_merge) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(multi_robot_map_merge) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(multi_robot_map_merge) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(multi_robot_map_merge) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(multi_robot_map_merge) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(multi_robot_map_merge) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(multi_robot_map_merge) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(multi_robot_map_merge) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(multi_robot_map_merge) by extension 'ros'
+[0.150s] DEBUG:colcon.colcon_core.package_identification:Package 'multi_robot_map_merge' with type 'ros.ament_python' and name 'multi_robot_map_merge'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(task_description) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(task_description) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(task_description) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(task_description) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(task_description) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(task_description) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(task_description) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(task_description) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(task_description) by extension 'ros'
+[0.151s] DEBUG:colcon.colcon_core.package_identification:Package 'task_description' with type 'ros.ament_cmake' and name 'task_description'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(task_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(task_gazebo) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(task_gazebo) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(task_gazebo) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(task_gazebo) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(task_gazebo) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(task_gazebo) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(task_gazebo) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(task_gazebo) by extension 'ros'
+[0.151s] DEBUG:colcon.colcon_core.package_identification:Package 'task_gazebo' with type 'ros.ament_cmake' and name 'task_gazebo'
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.169s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install
+[0.171s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 475 installed packages in /opt/ros/jazzy
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_explore' build argument 'cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_explore' build argument 'cmake_target' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_explore' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_explore' build argument 'cmake_clean_cache' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_explore' build argument 'cmake_clean_first' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_explore' build argument 'cmake_force_configure' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_explore' build argument 'ament_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_explore' build argument 'catkin_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_explore' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.220s] DEBUG:colcon.colcon_core.verb:Building package 'multi_robot_explore' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_explore', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore', 'merge_install': False, 'path': '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/multi_robot_explore', 'symlink_install': False, 'test_result_base': None}
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_map_merge' build argument 'cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_map_merge' build argument 'cmake_target' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_map_merge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_map_merge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_map_merge' build argument 'cmake_clean_first' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_map_merge' build argument 'cmake_force_configure' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_map_merge' build argument 'ament_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_map_merge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_map_merge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.220s] DEBUG:colcon.colcon_core.verb:Building package 'multi_robot_map_merge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_map_merge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge', 'merge_install': False, 'path': '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/multi_robot_map_merge', 'symlink_install': False, 'test_result_base': None}
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'task_description' build argument 'cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'task_description' build argument 'cmake_target' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'task_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'task_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'task_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'task_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'task_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'task_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'task_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.221s] DEBUG:colcon.colcon_core.verb:Building package 'task_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/task_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_description', 'merge_install': False, 'path': '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/task_description', 'symlink_install': False, 'test_result_base': None}
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'task_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'task_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'task_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'task_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'task_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'task_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'task_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'task_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'task_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.221s] DEBUG:colcon.colcon_core.verb:Building package 'task_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/task_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_gazebo', 'merge_install': False, 'path': '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/task_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.221s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.222s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.223s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/multi_robot_explore' with build type 'ament_python'
+[0.223s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_robot_explore', 'ament_prefix_path')
+[0.224s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/share/multi_robot_explore/hook/ament_prefix_path.ps1'
+[0.225s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/share/multi_robot_explore/hook/ament_prefix_path.dsv'
+[0.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/share/multi_robot_explore/hook/ament_prefix_path.sh'
+[0.226s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.226s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.230s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/multi_robot_map_merge' with build type 'ament_python'
+[0.230s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_robot_map_merge', 'ament_prefix_path')
+[0.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge/share/multi_robot_map_merge/hook/ament_prefix_path.ps1'
+[0.231s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge/share/multi_robot_map_merge/hook/ament_prefix_path.dsv'
+[0.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge/share/multi_robot_map_merge/hook/ament_prefix_path.sh'
+[0.232s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.232s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.236s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/task_description' with build type 'ament_cmake'
+[0.236s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/task_description'
+[0.236s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.237s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.242s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/task_gazebo' with build type 'ament_cmake'
+[0.243s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/task_gazebo'
+[0.243s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.243s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.468s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/multi_robot_explore'
+[0.468s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.468s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.743s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/multi_robot_map_merge'
+[0.743s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.744s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/task_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge:/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/task_description -- -j16 -l16
+[0.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/task_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge:/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/task_gazebo -- -j16 -l16
+[0.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/task_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge:/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/task_description -- -j16 -l16
+[0.824s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/task_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge:/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/task_description
+[0.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/task_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge:/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/task_gazebo -- -j16 -l16
+[0.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/task_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge:/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/task_gazebo
+[0.864s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(task_description)
+[0.871s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_description' for CMake module files
+[0.874s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_description' for CMake config files
+[0.876s] Level 1:colcon.colcon_core.shell:create_environment_hook('task_description', 'cmake_prefix_path')
+[0.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_description/share/task_description/hook/cmake_prefix_path.ps1'
+[0.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_description/share/task_description/hook/cmake_prefix_path.dsv'
+[0.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_description/share/task_description/hook/cmake_prefix_path.sh'
+[0.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/task_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge:/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/task_description
+[0.882s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_description/bin'
+[0.882s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_description/lib/pkgconfig/task_description.pc'
+[0.882s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_description/lib/python3.12/site-packages'
+[0.883s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_description/bin'
+[0.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_description/share/task_description/package.ps1'
+[0.887s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_description/share/task_description/package.dsv'
+[0.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_description/share/task_description/package.sh'
+[0.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_description/share/task_description/package.bash'
+[0.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_description/share/task_description/package.zsh'
+[0.894s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_description/share/colcon-core/packages/task_description)
+[0.896s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(task_description)
+[0.896s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_description' for CMake module files
+[0.898s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_description' for CMake config files
+[0.899s] Level 1:colcon.colcon_core.shell:create_environment_hook('task_description', 'cmake_prefix_path')
+[0.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_description/share/task_description/hook/cmake_prefix_path.ps1'
+[0.901s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_description/share/task_description/hook/cmake_prefix_path.dsv'
+[0.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_description/share/task_description/hook/cmake_prefix_path.sh'
+[0.903s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_description/bin'
+[0.903s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_description/lib/pkgconfig/task_description.pc'
+[0.904s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_description/lib/python3.12/site-packages'
+[0.905s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_description/bin'
+[0.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_description/share/task_description/package.ps1'
+[0.907s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_description/share/task_description/package.dsv'
+[0.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_description/share/task_description/package.sh'
+[0.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_description/share/task_description/package.bash'
+[0.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_description/share/task_description/package.zsh'
+[0.911s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_description/share/colcon-core/packages/task_description)
+[0.999s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(task_gazebo)
+[0.999s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_gazebo' for CMake module files
+[1.001s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_gazebo' for CMake config files
+[1.002s] Level 1:colcon.colcon_core.shell:create_environment_hook('task_gazebo', 'cmake_prefix_path')
+[1.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_gazebo/share/task_gazebo/hook/cmake_prefix_path.ps1'
+[1.003s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_gazebo/share/task_gazebo/hook/cmake_prefix_path.dsv'
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_gazebo/share/task_gazebo/hook/cmake_prefix_path.sh'
+[1.006s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_gazebo/bin'
+[1.006s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_gazebo/lib/pkgconfig/task_gazebo.pc'
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_gazebo/lib/python3.12/site-packages'
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_gazebo/bin'
+[1.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_gazebo/share/task_gazebo/package.ps1'
+[1.009s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_gazebo/share/task_gazebo/package.dsv'
+[1.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_gazebo/share/task_gazebo/package.sh'
+[1.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_gazebo/share/task_gazebo/package.bash'
+[1.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_gazebo/share/task_gazebo/package.zsh'
+[1.015s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_gazebo/share/colcon-core/packages/task_gazebo)
+[1.017s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(task_gazebo)
+[1.018s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_gazebo' for CMake module files
+[1.020s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_gazebo' for CMake config files
+[1.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('task_gazebo', 'cmake_prefix_path')
+[1.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_gazebo/share/task_gazebo/hook/cmake_prefix_path.ps1'
+[1.024s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_gazebo/share/task_gazebo/hook/cmake_prefix_path.dsv'
+[1.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_gazebo/share/task_gazebo/hook/cmake_prefix_path.sh'
+[1.027s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_gazebo/bin'
+[1.028s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_gazebo/lib/pkgconfig/task_gazebo.pc'
+[1.028s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_gazebo/lib/python3.12/site-packages'
+[1.029s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_gazebo/bin'
+[1.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_gazebo/share/task_gazebo/package.ps1'
+[1.031s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_gazebo/share/task_gazebo/package.dsv'
+[1.031s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/task_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge:/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/task_gazebo
+[1.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_gazebo/share/task_gazebo/package.sh'
+[1.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_gazebo/share/task_gazebo/package.bash'
+[1.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_gazebo/share/task_gazebo/package.zsh'
+[1.034s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/task_gazebo/share/colcon-core/packages/task_gazebo)
+[1.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/multi_robot_map_merge': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_map_merge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/multi_robot_map_merge build --build-base /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_map_merge/build install --record /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_map_merge/install.log --single-version-externally-managed install_data
+[1.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/multi_robot_explore': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_explore/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/multi_robot_explore build --build-base /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_explore/build install --record /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_explore/install.log --single-version-externally-managed install_data
+[2.364s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge' for CMake module files
+[2.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/multi_robot_map_merge' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_map_merge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/multi_robot_map_merge build --build-base /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_map_merge/build install --record /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_map_merge/install.log --single-version-externally-managed install_data
+[2.366s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge' for CMake config files
+[2.366s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge/lib'
+[2.367s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge/bin'
+[2.367s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge/lib/pkgconfig/multi_robot_map_merge.pc'
+[2.367s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge/lib/python3.12/site-packages'
+[2.367s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_robot_map_merge', 'pythonpath')
+[2.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge/share/multi_robot_map_merge/hook/pythonpath.ps1'
+[2.368s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge/share/multi_robot_map_merge/hook/pythonpath.dsv'
+[2.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge/share/multi_robot_map_merge/hook/pythonpath.sh'
+[2.369s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge/bin'
+[2.369s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multi_robot_map_merge)
+[2.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge/share/multi_robot_map_merge/package.ps1'
+[2.371s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge/share/multi_robot_map_merge/package.dsv'
+[2.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge/share/multi_robot_map_merge/package.sh'
+[2.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge/share/multi_robot_map_merge/package.bash'
+[2.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge/share/multi_robot_map_merge/package.zsh'
+[2.373s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge/share/colcon-core/packages/multi_robot_map_merge)
+[2.393s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore' for CMake module files
+[2.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/multi_robot_explore' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_explore/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/multi_robot_explore build --build-base /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_explore/build install --record /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_explore/install.log --single-version-externally-managed install_data
+[2.394s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore' for CMake config files
+[2.395s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/lib'
+[2.396s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/bin'
+[2.396s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/lib/pkgconfig/multi_robot_explore.pc'
+[2.396s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/lib/python3.12/site-packages'
+[2.396s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_robot_explore', 'pythonpath')
+[2.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/share/multi_robot_explore/hook/pythonpath.ps1'
+[2.397s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/share/multi_robot_explore/hook/pythonpath.dsv'
+[2.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/share/multi_robot_explore/hook/pythonpath.sh'
+[2.398s] Level 1:colcon.colcon_core.environment:checking '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/bin'
+[2.398s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multi_robot_explore)
+[2.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/share/multi_robot_explore/package.ps1'
+[2.399s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/share/multi_robot_explore/package.dsv'
+[2.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/share/multi_robot_explore/package.sh'
+[2.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/share/multi_robot_explore/package.bash'
+[2.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/share/multi_robot_explore/package.zsh'
+[2.401s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/share/colcon-core/packages/multi_robot_explore)
+[2.401s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.401s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.401s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.401s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.409s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.409s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.409s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.425s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.425s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/local_setup.ps1'
+[2.426s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/_local_setup_util_ps1.py'
+[2.427s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/setup.ps1'
+[2.428s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/local_setup.sh'
+[2.429s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/_local_setup_util_sh.py'
+[2.429s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/setup.sh'
+[2.431s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/local_setup.bash'
+[2.431s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/setup.bash'
+[2.432s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/local_setup.zsh'
+[2.433s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/setup.zsh'

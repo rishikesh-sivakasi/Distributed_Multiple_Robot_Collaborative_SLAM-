@@ -1,0 +1,22 @@
+[0.865s] Invoking command in '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/multi_robot_explore': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_explore/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/multi_robot_explore build --build-base /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_explore/build install --record /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_explore/install.log --single-version-externally-managed install_data
+[1.079s] running egg_info
+[1.096s] writing ../build/multi_robot_explore/multi_robot_explore.egg-info/PKG-INFO
+[1.096s] writing dependency_links to ../build/multi_robot_explore/multi_robot_explore.egg-info/dependency_links.txt
+[1.096s] writing entry points to ../build/multi_robot_explore/multi_robot_explore.egg-info/entry_points.txt
+[1.096s] writing requirements to ../build/multi_robot_explore/multi_robot_explore.egg-info/requires.txt
+[1.096s] writing top-level names to ../build/multi_robot_explore/multi_robot_explore.egg-info/top_level.txt
+[1.133s] reading manifest file '../build/multi_robot_explore/multi_robot_explore.egg-info/SOURCES.txt'
+[1.133s] writing manifest file '../build/multi_robot_explore/multi_robot_explore.egg-info/SOURCES.txt'
+[1.133s] running build
+[1.133s] running build_py
+[1.133s] running install
+[1.141s] running install_lib
+[1.159s] running install_data
+[1.159s] running install_egg_info
+[1.178s] removing '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/lib/python3.12/site-packages/multi_robot_explore-1.0.0-py3.12.egg-info' (and everything under it)
+[1.178s] Copying ../build/multi_robot_explore/multi_robot_explore.egg-info to /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/lib/python3.12/site-packages/multi_robot_explore-1.0.0-py3.12.egg-info
+[1.179s] running install_scripts
+[1.298s] Installing explore_map script to /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/lib/multi_robot_explore
+[1.298s] Installing explore_map2 script to /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/lib/multi_robot_explore
+[1.298s] writing list of installed files to '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_explore/install.log'
+[1.330s] Invoked command in '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/multi_robot_explore' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_explore/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/multi_robot_explore build --build-base /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_explore/build install --record /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_explore/install.log --single-version-externally-managed install_data

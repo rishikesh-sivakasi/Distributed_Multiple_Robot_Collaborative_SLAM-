@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing multi_robot_explore.egg-info/PKG-INFO
+writing dependency_links to multi_robot_explore.egg-info/dependency_links.txt
+writing entry points to multi_robot_explore.egg-info/entry_points.txt
+writing requirements to multi_robot_explore.egg-info/requires.txt
+writing top-level names to multi_robot_explore.egg-info/top_level.txt
+reading manifest file 'multi_robot_explore.egg-info/SOURCES.txt'
+writing manifest file 'multi_robot_explore.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/lib/python3.12/site-packages/multi-robot-explore.egg-link (link to .)
+Installing explore_map script to /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/lib/multi_robot_explore
+Installing explore_map2 script to /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/lib/multi_robot_explore
+
+Installed /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_explore
+running symlink_data

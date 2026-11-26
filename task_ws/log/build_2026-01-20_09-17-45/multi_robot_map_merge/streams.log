@@ -1,0 +1,18 @@
+[1.371s] Invoking command in '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_map_merge': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_map_merge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_map_merge/build --no-deps symlink_data
+[1.748s] running develop
+[1.984s] running egg_info
+[2.003s] writing multi_robot_map_merge.egg-info/PKG-INFO
+[2.004s] writing dependency_links to multi_robot_map_merge.egg-info/dependency_links.txt
+[2.004s] writing entry points to multi_robot_map_merge.egg-info/entry_points.txt
+[2.004s] writing requirements to multi_robot_map_merge.egg-info/requires.txt
+[2.004s] writing top-level names to multi_robot_map_merge.egg-info/top_level.txt
+[2.051s] reading manifest file 'multi_robot_map_merge.egg-info/SOURCES.txt'
+[2.051s] writing manifest file 'multi_robot_map_merge.egg-info/SOURCES.txt'
+[2.074s] running build_ext
+[2.074s] Creating /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge/lib/python3.12/site-packages/multi-robot-map-merge.egg-link (link to .)
+[2.074s] Installing map_merge script to /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge/lib/multi_robot_map_merge
+[2.075s] Installing map_merge2 script to /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge/lib/multi_robot_map_merge
+[2.075s] 
+[2.075s] Installed /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_map_merge
+[2.075s] running symlink_data
+[2.104s] Invoked command in '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_map_merge' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_map_merge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_map_merge/build --no-deps symlink_data

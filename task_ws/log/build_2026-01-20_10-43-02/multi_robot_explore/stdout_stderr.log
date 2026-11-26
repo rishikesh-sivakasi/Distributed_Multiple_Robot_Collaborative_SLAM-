@@ -1,0 +1,36 @@
+running develop
+Removing /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/lib/python3.12/site-packages/multi-robot-explore.egg-link (link to .)
+running egg_info
+writing ../build/multi_robot_explore/multi_robot_explore.egg-info/PKG-INFO
+writing dependency_links to ../build/multi_robot_explore/multi_robot_explore.egg-info/dependency_links.txt
+writing entry points to ../build/multi_robot_explore/multi_robot_explore.egg-info/entry_points.txt
+writing requirements to ../build/multi_robot_explore/multi_robot_explore.egg-info/requires.txt
+writing top-level names to ../build/multi_robot_explore/multi_robot_explore.egg-info/top_level.txt
+reading manifest file '../build/multi_robot_explore/multi_robot_explore.egg-info/SOURCES.txt'
+writing manifest file '../build/multi_robot_explore/multi_robot_explore.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_explore/build
+creating /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_explore/build/lib
+creating /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_explore/build/lib/multi_robot_explore
+copying multi_robot_explore/__init__.py -> /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_explore/build/lib/multi_robot_explore
+copying multi_robot_explore/explore_map2.py -> /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_explore/build/lib/multi_robot_explore
+copying multi_robot_explore/explore_map.py -> /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_explore/build/lib/multi_robot_explore
+running install
+running install_lib
+creating /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/lib/python3.12/site-packages/multi_robot_explore
+copying /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_explore/build/lib/multi_robot_explore/__init__.py -> /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/lib/python3.12/site-packages/multi_robot_explore
+copying /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_explore/build/lib/multi_robot_explore/explore_map2.py -> /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/lib/python3.12/site-packages/multi_robot_explore
+copying /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_explore/build/lib/multi_robot_explore/explore_map.py -> /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/lib/python3.12/site-packages/multi_robot_explore
+byte-compiling /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/lib/python3.12/site-packages/multi_robot_explore/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/lib/python3.12/site-packages/multi_robot_explore/explore_map2.py to explore_map2.cpython-312.pyc
+byte-compiling /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/lib/python3.12/site-packages/multi_robot_explore/explore_map.py to explore_map.cpython-312.pyc
+running install_data
+copying resource/multi_robot_explore -> /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/share/ament_index/resource_index/packages
+copying package.xml -> /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/share/multi_robot_explore
+running install_egg_info
+Copying ../build/multi_robot_explore/multi_robot_explore.egg-info to /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/lib/python3.12/site-packages/multi_robot_explore-1.0.0-py3.12.egg-info
+running install_scripts
+Installing explore_map script to /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/lib/multi_robot_explore
+Installing explore_map2 script to /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_explore/lib/multi_robot_explore
+writing list of installed files to '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_explore/install.log'

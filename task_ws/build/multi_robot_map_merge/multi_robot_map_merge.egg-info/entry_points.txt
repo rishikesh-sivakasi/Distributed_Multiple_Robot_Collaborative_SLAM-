@@ -1,0 +1,3 @@
+[console_scripts]
+map_merge = multi_robot_map_merge.map_merge:main
+map_merge2 = multi_robot_map_merge.map_merge2:main

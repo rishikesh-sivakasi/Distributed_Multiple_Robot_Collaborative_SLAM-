@@ -1,0 +1,157 @@
+Problem statement : (based on my understanding)
+
+        They said design and implement the distributed multiple robot collaborative slam , it means we need to perform 
+slam or mapping with more than one robot , and each of the robot makes a local map , and we create a node to fuse the 
+local maps of the robots and generate the final global map. This node is one of the main thing in this task , so it 
+have an lot of things to consider like unknown initial poses , overlapping trajectories , map inconsistencies and drift.
+And we need to create that pipeline in decentralized architecture, it means each feautre we create the separate nodes 
+by make the calls through we use that feautre.
+
+Deliverables:
+
+        An autonomous map-merging pipeline and a real time visualization showing the individual robot maps , poses and 
+a mergered global map.
+        We need to detect and resolve the overlaps , estimates transforms and map conflicts.
+        We need to create this thing to support the a new robot is joining or leaving without map cracks.
+
+Assumption :
+
+        Turtle bot 3 robot is used in this task.
+        Hospital based world is used in the task.
+
+System Architecture :
+
+        Robot 1 → SLAM → /burger/map ┐
+                                      ├ → Map Merger → /map
+        Robot 2 → SLAM → /waffle/map ┘  
+
+
+Approach :
+
+        1. visualise robot in rviz , world in gazebo. 
+        2. spawn a single robot on the hospital world.
+        3. spawn the multiple robots in that world.
+        4. implement the collaborative slam.
+        5. create the map merging pipeline or map fusion node.
+        6. resolve the mentioned problems while merging happens.
+        7. implement the adaption in code for a robot is suddenly joined or removed from the environment.
+
+
+Implementation :
+
+        First i try to visualise the robot in rviz and visualise the world in gazebo.
+        Spawn the robot on the hospital world.
+        Move the robot with teleop twist keyboard.
+        Make the sensor works.
+        Run the slam_toolbox. (i think fist to spawn single robot add the plugin , slam then move to multi robot concept)
+        Spawn multiple robot in gazebo.
+        Get the map from separate map topic.
+        Merge the maps.
+        Implement navigation package.
+
+
+
+Issues Faced:
+
+        Issue 1 : World is not loaded in gazebo.
+        cause : gazebo didn't know the uri , but this error comes only on the perdefined models like sun , ground_plain , chair.
+        try : 
+                1. add the gazebo resource path , while using this it will works only for our models folder but some models are there in the folder.
+                2. i see the fuel_utility.py file on that world package folder , it tell to how to install the models , first i install their depented modules, then run it shows error inside the code.
+                3. i tried an empty world to load the gazebo it loads and i test to spawn the robot it spawns.
+                4. i tried to command the models where are not in the models folder and visualize the gazebo , it visualise.
+                5. i spawn the robot on the incomplete world , it spawns but the gazebo is not running , i dont know why
+        solution :
+                i tried fuel_utility.py file first to install the ground_plain, it tells some error but after i run with other model like sun , shower it will installed and i copy & paste on the models.
+        
+        Issue 2 : tf not publishing
+        cause : after completely visualize the world in gazebo the tf is not published.
+        try :
+                1. i echo the tf topic in ros it publishing tf turtlebot3/base_link to turtlebot3/wheel_right_link but i rviz it see a No transform from [turtlebot3/wheel_left_link] to [base_link]
+                2. i tried to change the world but still tf is missing.
+                3. yesterday i tried to visualize all bot in rviz it works but today not one is vizualized .
+                4. i run the each and every robot in different terminal and check the tf by running the rqt_tf_tree all tf are shown but it not transforming.
+        solution :
+                i change the rviz fixed frame it was in base_link but in my program it is tb3_burger_base_link, i change it and i get the tf
+                this not an Issue this is my mistake.
+
+        Issue 3 : Filter dropping message: frame 'tb3_burger/base_scan' at time 4.300 for reason 'discarding message because the queue is full'
+        cause : i add the lidar sensor tag in the urdf 
+        try:
+                1. i check the gz_frame_id to set the correct link , i got this error while i work with lidar that is i forget to add the gz_frame_id tag once i add it , the gone 
+                but this time i added but it not solved.
+        solution :
+                again i remove and add the gz_frame_id it works.
+
+        Issue 4 : while i run the slam the map to left and right wheel tfs are missing.
+        cause : robot_state_publisher wants the joint_states it didnt get so tf i not comming
+        try : 
+                1. i tried slam in my task i didnt face this type of Issue.
+                2. i try to add the namespace in the robot_state_publisher node 
+        solution :
+                i forget to add the namespace in the robot_state_publisher node so it subscribes the joint_states but i publish the joint_states in namespace/joint_states.
+
+        Issue 5 : while i try to spawn the multiple robot in gazebo 'list' object has no attribute 'describe_sub_entities' is comes while launch the file
+        cause : i add the node represent variables on the list
+        try : 
+              1. i tried to check the work flow of the launch file , i found the error was happening on the return LaunchDescription .
+              2. i use the list and i add the node represent variables on the list and i add it to the LaunchDescription it throws this error.
+              3. i remove it and i directly add it to the LaunchDescription object with the add_action() function.
+
+        Issue 6 : while spawn the multiple robot i used the loop based approach to spawn multiple robot but gazebo is automtically killed before Running
+        cause : spawning name
+        try : 
+                1. first i tried lot of things to find the where the issue comes , i command lot codes and run , trail and find the error.
+                2. The loop is runs well for a single robot but when i add the another robot i makes some error.
+                3. i tried multiple things to spawn the robot , but i dont where i am stuck , so i keep find the solution.
+        solution :
+                gazebo spawning node need the name argument if we pass the correct model name in the name argument the two robot are spawned.
+
+        Issue 7 : while implementing the nav2 stack for each robot , the launch file launches the nodes but when i give the pose it robot didn't move.
+        cause : i dont know
+        try :
+                1. i tried to chage some parameter in the param file.
+
+        Issue 8 : In between the exploration the robot stuck in the narrow gap, door
+        cause : local and global costmaps robot and inflation radius are not correctly match for my robot.
+        try :
+                1. i try to increase and decrease the value and check it is works are not.
+                2. i see if i decrease the too much it will crach with the obstacle and increase too much it wont go through door, narrow space
+        solution : 
+                find the correct value by setting the multiple values which is sutable like it wont crach and it go through the narrow space
+
+Work status :
+
+        Robot visualized in rviz - complete
+        World visualise in gazebo - complete
+        Spawn a single robot - complete
+        move the single robot with teleop - complete
+        Make the sensor works - complete
+        Running slam_toolbox for single robot - complete
+        Spawn multiple robot - complete
+        Get the map from their own separate topic - complete
+        Merge the different robot maps - completed
+        Implement navigation package - in progress
+
+
+Refered : 
+
+        Distributed monocular visual SLAM as a basis for a collaborative augmented reality framework - https://www.sciencedirect.com/science/article/abs/pii/S0097849318300025
+        Spawn multiple robots : https://youtu.be/OMwK8u7bap0?si=--OKO4KlD2WMaMIC
+                                https://github.com/arshadlab/tb3_multi_robot/tree/master 
+                                https://bitbucket.org/theconstructcore/box_bot/src/foxy/
+
+Improvements :
+
+        Next we can implement the autonomous navigation of the robot , because we have the global map , using that map to archieve navigation.
+        Once complete the navigation , we can deliver the medicines at the specific location with the help of navigation.
+        
+Screen recording link :
+	08/01/2026 = https://meeting.zoho.in/meeting/videoprv?recordingId=4b0b7604b4b75bf39e158fbeea51aadd930b1460414b2e5c92f191c8ed0da636&view=embed
+        09/01/2026 = https://meeting.zoho.in/meeting/videoprv?recordingId=2d3b30c7752a787e1560472fc846305442fc5b7a3d2c1da173dfb9b890b8a78f&view=embed
+        12/01/2026 = https://meeting.zoho.in/meeting/videoprv?recordingId=14a1e39ff4008349d49d1bade6fd739e60243c8553267d611a0968b8b4efebfa&view=embed
+
+1 minute Screen cast :
+        08/01/2026 = https://workdrive.zohoexternal.in/file/7bvgn546214d0ce954d418cd0ce9a9b225405
+        09/01/2026 = https://workdrive.zohoexternal.in/file/l4d77362fc4262fd74c6db09982619762e683
+        12/01/2026 = https://workdrive.zohoexternal.in/file/mwsxe395108388bbb49de8075c6de84426d08

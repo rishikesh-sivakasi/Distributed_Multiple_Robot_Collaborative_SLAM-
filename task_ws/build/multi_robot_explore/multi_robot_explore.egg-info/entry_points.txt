@@ -1,0 +1,3 @@
+[console_scripts]
+explore_map = multi_robot_explore.explore_map:main
+explore_map2 = multi_robot_explore.explore_map2:main

@@ -1,0 +1,22 @@
+[2.414s] Invoking command in '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/multi_robot_map_merge': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_map_merge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/multi_robot_map_merge build --build-base /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_map_merge/build install --record /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_map_merge/install.log --single-version-externally-managed install_data
+[3.025s] running egg_info
+[3.079s] writing ../build/multi_robot_map_merge/multi_robot_map_merge.egg-info/PKG-INFO
+[3.079s] writing dependency_links to ../build/multi_robot_map_merge/multi_robot_map_merge.egg-info/dependency_links.txt
+[3.079s] writing entry points to ../build/multi_robot_map_merge/multi_robot_map_merge.egg-info/entry_points.txt
+[3.080s] writing requirements to ../build/multi_robot_map_merge/multi_robot_map_merge.egg-info/requires.txt
+[3.080s] writing top-level names to ../build/multi_robot_map_merge/multi_robot_map_merge.egg-info/top_level.txt
+[3.172s] reading manifest file '../build/multi_robot_map_merge/multi_robot_map_merge.egg-info/SOURCES.txt'
+[3.174s] writing manifest file '../build/multi_robot_map_merge/multi_robot_map_merge.egg-info/SOURCES.txt'
+[3.174s] running build
+[3.175s] running build_py
+[3.175s] running install
+[3.188s] running install_lib
+[3.233s] running install_data
+[3.233s] running install_egg_info
+[3.281s] removing '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge/lib/python3.12/site-packages/multi_robot_map_merge-1.0.0-py3.12.egg-info' (and everything under it)
+[3.282s] Copying ../build/multi_robot_map_merge/multi_robot_map_merge.egg-info to /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge/lib/python3.12/site-packages/multi_robot_map_merge-1.0.0-py3.12.egg-info
+[3.284s] running install_scripts
+[3.589s] Installing map_merge script to /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge/lib/multi_robot_map_merge
+[3.590s] Installing map_merge2 script to /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge/lib/multi_robot_map_merge
+[3.591s] writing list of installed files to '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_map_merge/install.log'
+[3.657s] Invoked command in '/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/multi_robot_map_merge' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_map_merge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/install/multi_robot_map_merge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/multi_robot_map_merge build --build-base /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_map_merge/build install --record /home/arz-1029/Desktop/Rishikesh_Evaluvation/task_ws/build/multi_robot_map_merge/install.log --single-version-externally-managed install_data
